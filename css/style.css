@@ -151,7 +151,33 @@ header {
 
  }
 
+ .columns .col {
+     width:30% ;
+     height: 800px;
+     background-color: gold;
+     display: inline-block;
+     margin: auto;
+     
+ }
+ .columns .col {
+     margin: 70px 0;
+ }
+ .columns .col-left {
+     float: left;
+
+ }
+
+ .columns .col-right {
+     float: right;
+ }
  
+.columns .col:nth-child(2) {
+     background-color: gray;
+     margin: 70px 65px;
+    
+ } 
+ 
+
 
 
 
