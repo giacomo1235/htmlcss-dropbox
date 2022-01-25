@@ -133,6 +133,27 @@ header {
      padding-bottom: 20px;
  }
 
+ .row {
+     margin: 200px auto;
+     width: 90%;
+ }
+
+ .content-row h2 {
+     font-size: 3rem;
+ }
+
+ .content-row form {
+     margin-top: 50px;
+ }
+
+ .content-row label {
+     margin-right: 20px;
+
+ }
+
+ 
+
+
 
 
 
