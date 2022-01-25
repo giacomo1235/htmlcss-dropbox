@@ -22,6 +22,7 @@ html {
 
 header {
     background-color: rgb(73%, 81%, 90%);
+    min-width: 1220px;
 
 }
 
@@ -97,11 +98,16 @@ header {
  }
 
  .content-header {
-     width: 90%;
+     width: 1000px;
+     position: relative;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     
  }
  .content-header h1 {
      font-size: 4rem;
- }
+/*      margin-top: 30px;
+ */ }
 
  .text-box {
      margin-top: 100px;
@@ -110,19 +116,22 @@ header {
  }
 
  .content-header img {
-     width: 65% ;
-     float: right;
- }
+    width: 90%;
+    float: right;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+ } 
 
  .content-header .bluebutton {
-     margin: 20px;
+     margin: 25px 0;
  }
 
  .content-header i {
-     margin-top: 20px;
      font-size: 2.5rem;
+     margin-top: 0px;
+     padding-bottom: 20px;
  }
-
 
 
 
