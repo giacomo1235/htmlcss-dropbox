@@ -74,7 +74,6 @@ header {
 .btn {
     display: inline-block;
     line-height: 25px;
-    /* padding: 5px 15px; */
     
 }
 
@@ -191,7 +190,7 @@ header {
 .col .description{
     margin: 30px 25px;
     text-align: center;
-    width: 78%;
+    width: 70%;
 }
 
 .col .description h1 {
@@ -333,8 +332,9 @@ header {
 
 .squares {
     width: 100%;
-    height: 500px; 
+    height: 750px; 
     border: none;
+    background-color: rgb(73%, 81%, 90%);
    
 }
 
@@ -356,7 +356,6 @@ header {
 .square {
     width: 50%;
     height: 50%;
-    /* border: 1px solid black; */
     float: left;
     position: relative;
 }
@@ -421,6 +420,132 @@ header {
     margin-right: 470px;
 
 }
+
+.row4 .content-row {
+    width: 50%;
+    display: inline-block;
+}
+
+.row4-button {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.row4-button button {
+    border: none;
+}
+
+.row4 {
+    width: 90%;
+    margin: 110px auto;
+}
+
+.row5  .question {
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid grey;
+    
+}
+
+.question a {
+    color: black;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.question p {
+    float: left;
+
+}
+
+.question i {
+    float: right;
+    line-height: 100px;
+}
+.row5 .question:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.content-row .titolo {
+    margin-bottom: 30px;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(12%, 12%, 12%);
+}
+.main-footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+.main-footer ul {
+    list-style: none;
+}
+
+
+.small {
+    padding-top: 20px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 17%;
+    line-height: 26px;
+    margin: 10px;
+}
+
+.main-footer div::first-line {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    line-height: 80px;
+} 
+
+.language {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.language img {
+    width: 24px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+
+.language p {
+    float: left;
+}
+
+.social {
+    margin-top: 15px;
+}
+.end {
+    width: 90%;
+    margin: 0 auto;
+    padding: 26px 0;
+    border-top: 1px solid white;
+}
+.end button {
+    float: right;
+}
+
+.end .download1 {
+    padding: 10px 10px;
+    margin: 0;
+    color: white;
+    
+    font-size: 1rem;
+}
+
+
+
+
 
 
 
