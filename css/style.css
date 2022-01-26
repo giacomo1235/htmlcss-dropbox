@@ -22,8 +22,7 @@ html {
 
 header {
     background-color: rgb(73%, 81%, 90%);
-/*     min-width: 1220px;
- */
+
 }
 
 .navbar-top {
@@ -36,34 +35,30 @@ header {
 }
 
 .navbar{
-     display: inline-block;
-     width: 50%;
-     
-     
+    display: inline-block;
+    width: 50%;  
 }
 .navbar .logo {
     vertical-align: middle;
 }
- .navbar nav {
-     display: inline-block;
+
+.navbar nav {
+    display: inline-block;
 }
  
  
 .navbar li {
-     display: inline-block;
-     font-size: 1rem;
-     
-  /*    padding: 15px 20px; */
-     
+    display: inline-block;
+    font-size: 1rem;
 }
  
 .navbar-left {
-     float: left;
+    float: left;
 }
 
 .navbar-right {
-     float: right;
-     text-align: right;
+    float: right;
+    text-align: right;
 }
 
 .navbar li a {
@@ -83,8 +78,7 @@ header {
     
 }
 
-.bluebutton {
-    
+.bluebutton {   
     background-color: blue;
    border-style: none ;
 }
@@ -103,122 +97,124 @@ header {
 
 .navbar img {
     vertical-align: middle;
- }
+}
 
- .content-header {
-     width: 1000px;
-     position: relative;
-     padding-top: 50px;
-     padding-bottom: 50px;
+.content-header {
+    width: 1000px;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
      
- }
- .content-header h1 {
-     font-size: 4rem;
-/*      margin-top: 30px;
- */ }
+}
 
- .text-box {
-     margin-top: 100px;
-     width: 20%;
-     float: left;
- }
+.content-header h1 {
+    font-size: 4rem;
+}
 
- .content-header img {
+.text-box {
+    margin-top: 100px;
+    width: 20%;
+    float: left;
+}
+
+.content-header img {
     width: 90%;
     float: right;
     position: absolute;
     left: 25%;
     top: 40%;
- } 
+} 
 
- .content-header .bluebutton {
-     margin: 25px 0;
- }
+.content-header .bluebutton {
+    margin: 25px 0;
+}
 
- .content-header i {
-     font-size: 2.5rem;
-     margin-top: 0px;
-     padding-bottom: 20px;
- }
+.content-header i {
+    font-size: 2.5rem;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
 
- .row {
-     margin: 200px auto;
-     width: 90%;
- }
+.row {
+    margin: 200px auto;
+    width: 90%;
+}
 
- .content-row h2 {
-     font-size: 3rem;
- }
+.content-row h2 {
+    font-size: 3rem;
+}
 
- .content-row form {
-     margin-top: 50px;
- }
+.content-row form {
+    margin-top: 50px;
+}
 
- .content-row label {
-     margin-right: 20px;
+.content-row label {
+    margin-right: 20px;
 
- }
+}
 
- .columns .col {
-     width:29% ;
-    
-     
-     display: inline-block;
-     margin: auto;
-     border: 1px solid grey;
-     
- }
- .columns .col {
-     margin: 70px 0;
- }
- .columns .col-left {
-     float: left;
+.columns .col {
+    width:29% ;  
+    display: inline-block;
+    margin: auto;
+    border: 1px solid grey;    
+}
+.columns .col {
+    margin: 70px 0;
+}
 
- }
+.columns .col-left {
+    float: left;
+}
 
- .columns .col-right {
-     float: right;
- }
+.columns .col-right {
+    float: right;
+}
  
 .columns .col:nth-child(2) {
-     margin: 70px 83px;
+    margin: 70px 83px;
     
- } 
+} 
 .col .subject {
     padding: 10px;
     border-bottom: 1px solid grey;
     text-align: center;
 
 }
- .columns .subject p {
-     font-size: 20px;
+
+.columns .subject p {
+    font-size: 20px;
  }
 
- .col .description{
-     margin: 30px 25px;
-     text-align: center;
-     width: 78%;
- }
- .col .description h1 {
-     font-size: 1.7rem;
- }
+.col .description{
+    margin: 30px 25px;
+    text-align: center;
+    width: 78%;
+}
 
- .col .description h2 {
-     font-size: 1rem;
-     line-height: 2;
- }
-  .col .description h3 {
-      color: gray;
-      font-size: .8rem;
-      line-height: 1;
-      margin-bottom: 30px;
+.col .description h1 {
+    font-size: 1.7rem;
+}
+
+.col .description h2 {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.col .description h3 {
+    color: gray;
+    font-size: .8rem;
+    line-height: 1;
+    margin-bottom: 30px;
   }
-  .box {
-      margin: 20px 0;
-  } 
-  .box i {
-      vertical-align: top;
-  }
+
+.box {
+    margin: 20px 0;
+} 
+
+.box i {
+    vertical-align: top;
+} 
 
   
 .col .description p { 
@@ -256,10 +252,12 @@ hr {
     width: 100%;
     margin-top: 0;
 } 
+
 .col-bottom h2,
 .col-bottom p {
     margin: 20px 0;
 }
+
 .col-bottom .btn-right {
     float: right;
     margin: 30px;
@@ -285,19 +283,13 @@ hr {
 .row1 .col-left {
   float: left;
     width: 58%;
-
 }
 
-.row1 .col-right {
-   
-    float: left;
-   
+.row1 .col-right {   
+    float: left;   
     width: 40%;
+}
 
-}
-.col-right .description {
-    margin: 70px;
-}
 
 .whitebutton {
     background-color: white;
@@ -308,6 +300,14 @@ hr {
 .whitebutton a {
     color: black;
     text-decoration: none;
+}
+
+.row2 .columns .col:nth-child(5) {
+    margin: 70px 83px;
+}
+.row2  .col{
+    height: 300px;
+
 }
 
 
