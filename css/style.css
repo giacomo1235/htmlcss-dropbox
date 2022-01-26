@@ -326,18 +326,22 @@ hr {
     margin-bottom: 30px;
 
 }
+.row3 .content-row {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .squares {
     width: 100%;
-    height: 600px;
+    height: 500px; 
     border: none;
    
 }
 
 .col-30{
     width: 30%;
+    height: 500px;
     background-color: gold;
-    height: 600px;
     display: inline-block;
     
    
@@ -345,7 +349,7 @@ hr {
 .col-40{
     width: 40%;
     background-color: gray;
-    height: 600px;
+    
     display: inline-block;
 }
 
@@ -354,7 +358,17 @@ hr {
     height: 50%;
     border: 1px solid black;
     float: left;
+    position: relative;
 }
+.square img {
+    width: 90%;  
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
 
 
 
