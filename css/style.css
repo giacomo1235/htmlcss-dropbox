@@ -261,7 +261,12 @@ border-bottom: 2px solid grey;
 
 .col-bottom .btn-right {
     float: right;
-    margin: 30px;
+    margin: 20px;
+}
+
+.row .col-bottom .description {
+    width: 70%;
+    margin: 20px;
 }
 
 .fa-check {
@@ -524,6 +529,15 @@ footer {
     margin: 10px;
 }
 
+.small a {
+    text-decoration: none;
+    color: white;
+}
+
+.small a:hover {
+    text-decoration: underline;
+}
+
 .main-footer div::first-line {
     font-weight: bolder;
     font-size: 1.3rem;
@@ -545,6 +559,10 @@ footer {
     border-top: 2px solid grey;
     margin-left: 50px;
     text-decoration: none;
+}
+
+.end a:hover {
+    text-decoration: underline;
 }
 
 
