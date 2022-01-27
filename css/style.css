@@ -129,7 +129,6 @@ border-bottom: 2px solid grey;
 .content-header img {
     width: 80%;
     max-width: 1000px;
-    float: right;
     position: absolute;
     left: 20%;
     top: 40%;
