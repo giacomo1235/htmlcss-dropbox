@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  min-width: 1080px;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.centered {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #bacfe6;
+    vertical-align: middle;
+    height: 700px;
+    
+
+}
+
+
+.navbar-top {
+   
+   line-height: 50px;
+    vertical-align: middle;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    border-bottom: .5px solid grey;
+    
+
+}
+
+.navbar nav {
+    display: inline-block;
+}
+ 
+ 
+.navbar li {
+    display: inline-block;
+    font-size: 1rem;
+}
+ 
+.navbar-left {
+    float: left;
+}
+
+.navbar-right {
+    float: right;
+    text-align: right;
+}
+
+.navbar li a {
+    line-height: 50px;
+   text-decoration: none;
+   color: black;
+   margin: 0 22px ;
+   display: inline-block;
+
+}
+.navbar li a:hover {
+border-bottom: 2px solid grey;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 30px;
+    
+}
+
+.bluebutton {   
+    background-color: blue;
+   border-style: none ;
+}
+.whitebutton a,
+.bluebutton a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.whitebutton:hover,
+.bluebutton:hover {
+    opacity: .5;
+}
+
+
+
+
+.navbar img {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.content-header {
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     
+}
+
+.content-header h1:first-child {
+    font-size: 4rem;
+    margin-top: 50px;
+}
+
+.text-box {
+    margin-top: 50px;
+    width: 20%;
+    float: left;
+}
+
+.content-header img {
+    width: 80%;
+    max-width: 1000px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+} 
+
+.content-header .bluebutton {
+    margin: 25px 0;
+}
+
+.content-header i {
+    font-size: 2.5rem;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.row {
+    margin: 200px auto;
+    width: 80%;
+}
+.content-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-row h2 {
+    font-size: 3rem;
+}
+
+.content-row form {
+    margin-top: 50px;
+}
+
+.content-row label {
+    margin-right: 20px;
+
+}
+.columns {
+    width: 100%;
+}
+
+.columns .col {
+    width:calc((100% - 100px)/3) ;  
+    float: left;
+    border: 1px solid grey;    
+    margin: 70px 0;
+}
+
+
+
+ 
+.columns .col-middle {
+    margin: 70px 50px;
+    
+} 
+.col .subject {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+
+}
+
+.columns .subject p {
+    font-size: 20px;
+ }
+
+.col .description{
+    margin: 30px 25px;
+    text-align: center;
+}
+
+.col .description h1 {
+    font-size: 1.7rem;
+}
+
+.col .description h2 {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.col .description h3 {
+    color: gray;
+    font-size: .8rem;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+
+.box {
+    margin: 20px 0;
+} 
+
+.box i {
+    vertical-align: top;
+} 
+
+  
+.col .description p { 
+    display: inline-block;
+    width: 90%;
+}
+
+.description .bluebutton {
+    margin: 0 auto ;
+    display: block;
+}
+
+.row .description h1,
+.row .description h2,
+.row .description h3,
+.row .description p {
+    text-align: left;
+}
+ 
+
+
+.description hr {
+    margin-right: 250px;
+    margin-top: 40px;
+}
+
+.columns .col-bottom {
+    width: 100%;
+    margin-top: 0;
+} 
+
+.col-bottom h2,
+.col-bottom p {
+    margin: 20px 0;
+}
+
+.col-bottom .btn-right {
+    float: right;
+    margin: 20px;
+}
+
+.row .col-bottom .description {
+    width: 70%;
+    margin: 20px;
+}
+
+.fa-check {
+    color: blue;
+}
+
+.row1 img {
+    width: 100%;
+    display: inline-block;
+} 
+
+.row .description {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+} 
+
+
+
+
+.row1 .col-left {
+  float: left;
+    width: 58%;
+}
+
+.row1 .col-right {   
+    float: left;   
+    width: 40%;
+}
+
+
+.whitebutton {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 30px;
+}
+
+.whitebutton a {
+    color: black;
+    text-decoration: none;
+}
+.row2 .columns {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row2 .columns .col:nth-child(5) {
+    margin: 70px 50px;
+}
+.row2  .col{
+    width:calc((100% - 100px)/3) ;
+    border: none;
+    
+
+}
+
+.row2 img {
+    width: 100%;
+}
+
+.row2 .description h1,
+.row2 .description h2,
+.row2 .description h3,
+.row2 .description p {
+    margin: 20px 20px;
+}
+.row3 {
+    margin-bottom: 50px;
+}
+.row3 h2 {
+    margin-bottom: 30px;
+
+}
+.row3 .content-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.squares {
+    width: 100%;
+    height: 750px; 
+    border: none;
+    background-color: rgb(73%, 81%, 90%);
+   
+}
+
+.col-30{
+    width: 30%;
+    height: 428px;
+    background-color: gold;
+    float: left;
+    
+   
+}
+.col-40{
+    width: 40%;
+    background-color: rgb(96%, 96%, 96%);
+    height: 428px;
+    float: left;
+}
+
+.squares .col-bottom {
+    width: 65%;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 110%);
+}
+
+.squares .col-bottom .description {
+    display: inline-block;
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+    float: left;
+    position: relative;
+}
+.square img {
+    width: 45%;  
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.square00 {
+    background-color: rgb(67%, 82%, 63%);
+    border: 10px solid rgb(84%, 91%, 81%);
+}
+
+.square0 {
+    background-color: rgb(35%, 7%, 17%);
+
+}
+
+.square1 {
+    background-color: rgb(25%, 57%, 79%);
+}
+
+.square2{
+    background-color: rgb(92%, 23%, 18%);
+}
+
+.square3{
+    background-color: rgb(76%, 16%, 17%);
+}
+
+.square4 {
+    background-color: rgb(73%, 81%, 90%);
+}
+
+.square5 {
+    background-color: rgb(8%, 14%, 49%);
+}
+
+.square6 {
+    background-color: rgb(98%, 85%, 34%);
+}
+
+.designit {
+    width: 25%;
+    margin: 50px;
+
+}
+.designit img {
+    width: 100%;
+}
+.designit-txt {
+    margin: 50px;
+}
+.designit-txt .author {
+    margin-top: 50px ;
+}
+.col-40 hr {
+    margin-left: 50px;
+    margin-right: 470px;
+
+}
+
+.row4 .content-row {
+    width: 50%;
+    display: inline-block;
+}
+
+.row4-button {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.row4-button button {
+    border: none;
+}
+
+.row4 {
+    width: 80%;
+    margin: 110px auto;
+}
+
+.row5  .question {
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid grey;
+    
+}
+
+.question a {
+    color: black;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.question p {
+    float: left;
+    font-weight: bold;
+
+}
+
+.question i {
+    float: right;
+    line-height: 100px;
+}
+.row5 .question:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.content-row .titolo {
+    margin-bottom: 30px;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(12%, 12%, 12%);
+}
+.main-footer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+.main-footer ul {
+    list-style: none;
+}
+
+
+.small {
+    padding-top: 20px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 17%;
+    line-height: 26px;
+    margin: 10px;
+}
+
+.small a {
+    text-decoration: none;
+    color: white;
+}
+
+.small a:hover {
+    text-decoration: underline;
+}
+
+.main-footer div::first-line {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    line-height: 80px;
+} 
+
+
+
+.end {
+    width: 90%;
+    margin: 0 auto;
+    padding: 26px 0;
+}
+
+.end a {
+    color: grey;
+    display: inline-block;
+    padding: 34px 0px;
+    border-top: 2px solid grey;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.end a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.menu, .drop-menu {
+    
+    list-style-type: none;
+}
+
+.menu-item {
+    border-top: 1px solid grey;
+    position: relative;
+   
+}
+.menu-item:last-child {
+    border-bottom:1px solid grey ;
+}
+
+.menu-item:last-child:hover {
+    padding-bottom: 60px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    padding: 50px 10px;
+    color: black;
+    display: block;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    top: 50%; 
+    min-width: 100px;
+    
+}
+
+.drop-menu-item {
+    width: 100%;
+}
+
+.drop-menu-item a {
+    color: #555;
+}
+
+.menu-item:hover .drop-menu {
+    display: block;
+    
+}
+
+.menu-item:hover {
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
