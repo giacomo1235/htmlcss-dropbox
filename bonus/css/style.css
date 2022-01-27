@@ -475,25 +475,20 @@ border-bottom: 2px solid grey;
     
 }
 
-.question a {
+.menu-item a {
     color: black;
-    line-height: 100px;
     text-align: center;
-    vertical-align: middle;
-}
+    vertical-align: middle; 
+} 
 
-.question p {
+.menu-item p {
     float: left;
     font-weight: bold;
 
 }
 
-.question i {
+.menu-item i {
     float: right;
-    line-height: 100px;
-}
-.row5 .question:last-child {
-    border-bottom: 1px solid grey;
 }
 
 .content-row .titolo {
@@ -582,9 +577,9 @@ footer {
     border-bottom:1px solid grey ;
 }
 
-.menu-item:last-child:hover {
-    padding-bottom: 60px;
-}
+.menu-item:last-child:hover{
+     padding-bottom: 100px; 
+} 
 
 .menu-item a {
     text-decoration: none;
@@ -615,7 +610,7 @@ footer {
 }
 
 .menu-item:hover {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 
