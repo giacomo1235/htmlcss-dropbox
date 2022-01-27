@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+  min-width: 1080px;
+}
 
 html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    max-width: 1460px;
+    
    
     margin: 0 auto;
 }
@@ -21,25 +24,25 @@ html {
 }
 
 header {
-    background-color: rgb(73%, 81%, 90%);
-
-}
-
-.navbar-top {
-    padding: 10px 5px;
-    line-height: 42px;
+    background-color: #bacfe6;
     vertical-align: middle;
-    background-color: white;
+    height: 700px;
     
 
 }
 
-.navbar{
-    display: inline-block;
-    width: 50%;  
-}
-.navbar .logo {
+
+.navbar-top {
+   
+   line-height: 50px;
     vertical-align: middle;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    border-bottom: .5px solid grey;
+    
+
 }
 
 .navbar nav {
@@ -62,18 +65,20 @@ header {
 }
 
 .navbar li a {
+    line-height: 50px;
    text-decoration: none;
    color: black;
-   padding: 22px;
+   margin: 0 22px ;
+   display: inline-block;
 
 }
 .navbar li a:hover {
-    background-color: lightgrey;
+border-bottom: 2px solid grey;
 }
 
 .btn {
     display: inline-block;
-    line-height: 25px;
+    line-height: 30px;
     
 }
 
@@ -97,32 +102,36 @@ header {
 
 
 .navbar img {
+    line-height: 50px;
     vertical-align: middle;
 }
 
 .content-header {
-    width: 1000px;
+    margin: 0 auto;
+    width: 80%;
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
      
 }
 
-.content-header h1 {
+.content-header h1:first-child {
     font-size: 4rem;
+    margin-top: 50px;
 }
 
 .text-box {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 20%;
     float: left;
 }
 
 .content-header img {
-    width: 90%;
+    width: 80%;
+    max-width: 1000px;
     float: right;
     position: absolute;
-    left: 25%;
+    left: 20%;
     top: 40%;
 } 
 
@@ -138,7 +147,11 @@ header {
 
 .row {
     margin: 200px auto;
-    width: 90%;
+    width: 80%;
+}
+.content-row {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .content-row h2 {
@@ -153,27 +166,23 @@ header {
     margin-right: 20px;
 
 }
+.columns {
+    width: 100%;
+}
 
 .columns .col {
-    width:29% ;  
-    display: inline-block;
-    margin: auto;
+    width:calc((100% - 100px)/3) ;  
+   /*  display: inline-block; */
+    float: left;
     border: 1px solid grey;    
-}
-.columns .col {
     margin: 70px 0;
 }
 
-.columns .col-left {
-    float: left;
-}
 
-.columns .col-right {
-    float: right;
-}
+
  
-.columns .col:nth-child(2) {
-    margin: 70px 83px;
+.columns .col-middle {
+    margin: 70px 50px;
     
 } 
 .col .subject {
@@ -190,8 +199,8 @@ header {
 .col .description{
     margin: 30px 25px;
     text-align: center;
-    width: 70%;
-}
+/*     width: 70%;
+ */}
 
 .col .description h1 {
     font-size: 1.7rem;
@@ -267,6 +276,7 @@ header {
 } 
 
 .row .description {
+    width: 80%;
     display: inline-block;
     text-align: left;
     vertical-align: middle;
@@ -299,7 +309,7 @@ header {
 }
 
 .row2 .columns .col:nth-child(5) {
-    margin: 70px 83px;
+    margin: 70px 52px;
 }
 .row2  .col{
     width: 29%;
@@ -326,7 +336,7 @@ header {
 
 }
 .row3 .content-row {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -342,7 +352,7 @@ header {
     width: 30%;
     height: 428px;
     background-color: gold;
-    display: inline-block;
+    float: left;
     
    
 }
@@ -350,7 +360,7 @@ header {
     width: 40%;
     background-color: rgb(96%, 96%, 96%);
     height: 428px;
-    display: inline-block;
+    float: left;
 }
 
 .square {
@@ -436,7 +446,7 @@ header {
 }
 
 .row4 {
-    width: 90%;
+    width: 80%;
     margin: 110px auto;
 }
 
@@ -479,7 +489,7 @@ footer {
     background-color: rgb(12%, 12%, 12%);
 }
 .main-footer {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding: 30px 0;
@@ -506,42 +516,23 @@ footer {
     line-height: 80px;
 } 
 
-.language {
-    margin-top: 15px;
-    display: inline-block;
-}
 
-.language img {
-    width: 24px;
-    height: 16px;
-    margin-right: 5px;
-    float: left;
-}
 
-.language p {
-    float: left;
-}
-
-.social {
-    margin-top: 15px;
-}
 .end {
     width: 90%;
     margin: 0 auto;
     padding: 26px 0;
-    border-top: 1px solid white;
-}
-.end button {
-    float: right;
 }
 
-.end .download1 {
-    padding: 10px 10px;
-    margin: 0;
-    color: white;
-    
-    font-size: 1rem;
+.end a {
+    color: grey;
+    display: inline-block;
+    padding: 34px 0px;
+    border-top: 2px solid grey;
+    margin-left: 50px;
+    text-decoration: none;
 }
+
 
 
 
