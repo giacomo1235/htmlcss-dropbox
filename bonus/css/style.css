@@ -573,13 +573,12 @@ footer {
     position: relative;
    
 }
-.menu-item:last-child {
-    border-bottom:1px solid grey ;
-}
-
-.menu-item:last-child:hover{
+ .menu-item:last-child {
+     border-bottom: 1px solid gray;
+ }
+.menu-item:last-child:hover .drop-menu-item {
      padding-bottom: 100px; 
-} 
+}
 
 .menu-item a {
     text-decoration: none;
@@ -612,7 +611,7 @@ footer {
 .menu-item:hover {
   margin-bottom: 50px;
 }
-
+ 
 
 
 
